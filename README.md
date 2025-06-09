@@ -5,7 +5,7 @@
 Large Pre-trained Language Models
   </p>
 </p>
-![method](pic\method.png)
+![method](pic/method.png)
 
 ### Context
 
@@ -30,43 +30,6 @@ Large Pre-trained Language Models
 
 run code in `glue_dataset.ipynb` to download GLUE dataset.
 
-##### file tree
-
-```
-.
-├── data
-├── glue_dataset.ipynb
-├── method_configs              # PEFT module configs
-│   ├── adapter128.yaml
-│   ├── adapter_lora.yaml
-│   ├── dora.yaml
-│   └── lora.yaml
-├── model
-├── outputs                     # log output
-├── pruning_methods_classed.py  # core pruning methods
-├── README.md
-├── requirements.txt
-├── src
-│   ├── dataset_wrapper.py
-│   ├── dora.py
-│   ├── frequency_cnt.py
-│   ├── peft_search_space.py
-│   ├── pic_draw.py
-│   ├── run_model.py
-│   ├── search_turns.py
-│   └── trainer_with_grad.py
-├── submit                      # result files for glue benchmark
-├── task_configs                # dataset and pruning method configs
-│   ├── glue_full.yaml
-│   ├── glue_full_base.yaml
-│   └── glue_full_block.yaml
-├── tools
-│   └── controller.py           # entry point of PrunePEFT
-└── utils
-    ├── gpu_memory_plot.py
-    ├── regression_head.py
-    └── save_submit.py
-```
 
 ## Run
 
