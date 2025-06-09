@@ -1,0 +1,13 @@
+tempCodeRunnerFile.py
+__pycache__/
+*.pth
+*.onnx
+.vscode/
+output.log
+*.log
+results/
+outputs/
+nni_outputs/
+data/
+submit/
+model/
