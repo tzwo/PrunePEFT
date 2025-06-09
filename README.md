@@ -5,9 +5,10 @@
 Large Pre-trained Language Models
   </p>
 </p>
-![method](https://raw.githubusercontent.com/tzwo/PrunePEFT/main/pic/method.png)
-### Link to the paper
-[PrunePEFT: Iterative Hybrid Pruning for Parameter-Efficient Fine-tuning of LLMs]()
+
+![method](pic/method.png)
+
+**Link to the paper**:[PrunePEFT: Iterative Hybrid Pruning for Parameter-Efficient Fine-tuning of LLMs]()
 
 ## Quick Start
 
