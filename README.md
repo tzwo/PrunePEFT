@@ -5,7 +5,7 @@
 Large Pre-trained Language Models
   </p>
 </p>
-![method](.\pic\method.png)
+![method](pic\method.png)
 
 ### Context
 
