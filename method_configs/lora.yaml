@@ -1,0 +1,34 @@
+LORA:
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+  - 32
+LORA_LR: 2e-6
+
+EPOCHS: 3
+PRUNE_EPOCHS: 0
+PRUNE_TURN: 0
+WARMUP_EPOCHS: 0
+WARMUP_ROUND: 0
+WARMUP_TURN: 0
+BACK_BONE: roberta-large

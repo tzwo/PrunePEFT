@@ -1,0 +1,37 @@
+DATASETS:
+  - TASK_NAME: rte
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: cola
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: mrpc
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: qqp
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: mnli_matched
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: mnli_mismatched
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: qnli
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+  - TASK_NAME: sst2
+    LOSS: cross_entropy
+    DATASET_NAME: glue
+
+PRUNE_METHODS:
+  - block_dynamic
+
+TRAIN_SIZE: 1.0
+TEST_SIZE: 1.0
+PRUNE_SIZE: 1.0
+WARM_UP: 100
+
+RUN_BASE: false
+
+SUBMIT: true
