@@ -8,7 +8,7 @@ Large Pre-trained Language Models
 
 ![method](pic/method.png)
 
-**Link to the paper**:[PrunePEFT: Iterative Hybrid Pruning for Parameter-Efficient Fine-tuning of LLMs]()
+**Link to the paper**:[PrunePEFT: Iterative Hybrid Pruning for Parameter-Efficient Fine-tuning of LLMs](http://arxiv.org/abs/2506.07587)
 
 ## Quick Start
 
@@ -44,6 +44,13 @@ device: the GPU id to use.
 ## Citation
 If you find our work to be useful, please cite:
 ```
-@article{
+@misc{yu2025prunepeftiterativehybridpruning,
+      title={PrunePEFT: Iterative Hybrid Pruning for Parameter-Efficient Fine-tuning of LLMs}, 
+      author={Tongzhou Yu and Zhuhao Zhang and Guanghui Zhu and Shen Jiang and Meikang Qiu and Yihua Huang},
+      year={2025},
+      eprint={2506.07587},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.07587}, 
 }
 ```
