@@ -44,7 +44,7 @@ device: the GPU id to use.
 ## Citation
 If you find our work to be useful, please cite:
 ```
-@misc{yu2025prunepeftiterativehybridpruning,
+@misc{yu2025prunepeft,
       title={PrunePEFT: Iterative Hybrid Pruning for Parameter-Efficient Fine-tuning of LLMs}, 
       author={Tongzhou Yu and Zhuhao Zhang and Guanghui Zhu and Shen Jiang and Meikang Qiu and Yihua Huang},
       year={2025},
